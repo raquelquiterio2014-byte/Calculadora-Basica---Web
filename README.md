@@ -56,3 +56,39 @@ Abra o arquivo `index.html` no navegador.
     <script src="script.js"></script>
 </body>
 </html>
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+input, select, button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: #22c55e;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
+}
